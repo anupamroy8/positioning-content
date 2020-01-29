@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*   {
+  box-sizing: border-box;
+}
+
+/****** Styling *****/
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #000000;
+}
+.logo {
+  font-size: 48px;
+  text-decoration: none;
+  text-align: center;
+ }
+.logo h1 {
+  margin: 16px 0;
+}
+.padding {
+  padding: 16px 0;
+  }
+
+.box {
+  border-radius: 12px;
+  width: 49%;
+  font-size: 24px;
+  padding: 16px;
+  line-height: 1.5;
+  vertical-align: top;
+  margin: 16px 0;
+}
+
+.redinline {
+  background-color: rgb(232,111,104);
+  display: inline-block;
+  border: 1px solid red;
+}
+
+.redwhitebg {
+  background-color: rgb(241, 217, 217);
+}
+
+.greenfloat {
+  background-color: rgb(133,234,148);
+  float: left;
+  border: 1px solid green;
+}
+
+.greenwhitebg {
+  background-color: rgb(205,246,223);
+}
+
+.redbox {
+  border-radius: 12px;
+  width: 50%;
+  font-size: 24px;
+  padding: 10px;
+  line-height: 1.5;
+  vertical-align: top;
+  background-color: rgb(232,111,104);
+  border: 1px solid red;
+}
